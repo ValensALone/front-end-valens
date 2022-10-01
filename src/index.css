@@ -111,7 +111,7 @@ h6 {
 .MuiSvgIcon-root:hover,
 .MuiTypography-root:hover,
 .MuiListItemIcon-root:hover {
-  transform: scale(1.1);
+  transform: scale(1.11);
 }
 
 .MuiButton-containedPrimary,
