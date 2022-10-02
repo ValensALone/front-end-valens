@@ -291,13 +291,11 @@ const Page: React.FC = ({children}) => {
   // }, [screenSM]);
 
   const changeBackground = (c: any) => {
-    c.target.style.transform = 'scale(1.01,1.1)';
-    c.target.style.backgroundColor = 'rgba(255,255,0,0.3)';
+    c.target.style.transform = 'scale(1.035)';
   };
 
   const resetBackground = (r: any) => {
     r.target.style.transform = 'scale(1,1)';
-    r.target.style.background = 'transparent';
   };
 
   return (
